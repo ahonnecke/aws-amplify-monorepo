@@ -1,0 +1,18 @@
+version: 1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - *enter command*
+    build:
+      commands:
+        - *enter command*
+    postBuild:
+      commands:
+        - *enter command*
+  artifacts:
+    - location
+  cache:
+    paths:
+      - path
+      - path

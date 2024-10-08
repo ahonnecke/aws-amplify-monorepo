@@ -1,0 +1,37 @@
+version: 1
+applications:
+  - appRoot: apps/react-app-1
+    env:
+      variables:
+        key: value
+    backend:
+      phases:
+        preBuild:
+          commands:
+            - *enter command*
+        build:
+          commands:
+            - *enter command*
+        postBuild:
+          commands:
+            - *enter command*
+    frontend:
+      buildPath: / # Run install and build from the monorepo project root
+      phases:
+        preBuild:
+          commands:
+            - *enter command*
+            - *enter command*
+        build:
+          commands:
+            - *enter command*
+      artifacts:
+        files:
+          - location
+          - location
+        discard-paths: yes
+        baseDirectory: location
+      cache:
+        paths:
+          - path
+          - path
