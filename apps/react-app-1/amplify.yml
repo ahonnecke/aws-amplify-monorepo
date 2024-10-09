@@ -8,23 +8,22 @@ applications:
       phases:
         preBuild:
           commands:
-            - *enter command*
+            - npm ci
         build:
           commands:
-            - *enter command*
+            - npm run build
         postBuild:
           commands:
-            - *enter command*
+            - npm run test
     frontend:
       buildPath: / # Run install and build from the monorepo project root
       phases:
         preBuild:
           commands:
-            - *enter command*
-            - *enter command*
+            - npm ci
         build:
           commands:
-            - *enter command*
+            - npm run build
       artifacts:
         files:
           - location

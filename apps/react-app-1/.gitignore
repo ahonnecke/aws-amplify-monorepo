@@ -1,0 +1,4 @@
+# React App 1 .gitignore
+node_modules/
+build/
+.env
