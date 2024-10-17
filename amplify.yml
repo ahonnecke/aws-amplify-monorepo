@@ -18,7 +18,7 @@ applications:
       cache:
         paths:
           - .npm/**/*
-    appRoot: packages/
+    appRoot: packages/shared-backend
 
   - frontend:
       phases:
