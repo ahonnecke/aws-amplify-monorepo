@@ -14,7 +14,7 @@ applications:
       artifacts:
         baseDirectory: dist
         files:
-          - "**/*"
+          - '**/*'
       cache:
         paths:
           - .npm/**/*
@@ -31,11 +31,11 @@ applications:
       artifacts:
         baseDirectory: dist
         files:
-          - "**/*"
+          - '**/*'
       cache:
         paths:
           - .npm/**/*
-    appRoot: apps/react-app
+    appRoot: apps/react-amplify-gen2
 
   - frontend:
       phases:
@@ -48,9 +48,9 @@ applications:
       artifacts:
         baseDirectory: .next
         files:
-          - "**/*"
+          - '**/*'
       cache:
         paths:
           - .next/cache/**/*
           - .npm/**/*
-    appRoot: apps/next-app
+    appRoot: apps/next-amp
