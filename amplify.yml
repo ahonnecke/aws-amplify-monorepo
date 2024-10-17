@@ -35,4 +35,4 @@ applications:
       cache:
         paths:
           - .npm/**/*
-    appRoot: apps/react-amplify-gen2
+    appRoot: apps/client
